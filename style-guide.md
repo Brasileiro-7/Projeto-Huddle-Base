@@ -1,7 +1,5 @@
 # Front-end Style Guide
 
-# NÃO É NECESSÁRIO O USO DO GRID NESTE PROJETO, FACILITE
-
 # Como eu organizo o projeto?
 
 ![identificando-elementos](./src/design/identificando-elementos-visualmente.png)

@@ -42,9 +42,10 @@ header img{
 .filha .botao {
     background-color: #fff;
     color:hsl(257, 40%, 49%);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
     height: 4.5rem;
     width: 15rem;
-    border-radius: 50px;
+    border-radius: 5rem;
     border: none;
     font-size: 1.7rem;
     margin-bottom: 11rem;
@@ -56,24 +57,28 @@ header img{
     color: #fff;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: end;
     margin-right: 6rem;
 }
 
-footer .social a i.fa-facebook-f,
-footer .social a i.fa-twitter,
-footer .social a i.fa-instagram{
+footer ul li{
+    display: inline;
+}
+
+footer a i.fa-facebook-f,
+footer a i.fa-twitter,
+footer a i.fa-instagram{
     color: #fff;
     font-size: 2rem;
     margin: 0.5rem;
     padding: 1rem;
-    border: solid 1px;
+    border: 0.1rem solid;
     border-radius: 50%;
     transition: 0.3s;
 }
 
-footer .social a:hover i{
+footer a:hover i{
     color: hsl(300, 69%, 71%);
 }
